@@ -8,6 +8,7 @@ This plugin also validates integrity of request body alongwith user credentials.
 This plugin is copied+modified from original Hmac-Auth plugin for KONG. https://getkong.org/plugins/hmac-authentication/
 
 ### Changes in this plugin
+I have used following headers for creating `signature` for `Authorization` header.
 
 #### Required headers:
 1. date ( Eg: 'Fri, 09 Oct 2015 00:00:00 GMT' )`
